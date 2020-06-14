@@ -242,12 +242,10 @@ transform: scale(1.1) rotate(4deg);
 }
 
 /*Blog section */
-.blog-reviews{
-    height: calc(100vh - 0px);
-}
+
 .blog--reviews--main{
     display: grid;
-    grid-template-rows: 80% auto;
+    grid-template-rows: auto auto;
     justify-content: center;
     justify-items: center;
     padding: 10px 0;

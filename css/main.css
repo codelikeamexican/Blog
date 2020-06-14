@@ -286,6 +286,7 @@ footer{
     align-content: center;
     margin-bottom: 100px;
 }
+
 .readenbooks__favbooks{
     display: grid;
     grid-template-columns: repeat(3,minmax(200px,369px));

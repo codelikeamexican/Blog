@@ -20,7 +20,7 @@ grid-template-rows: repeat(2,1fr);
 header .header-container{
 width:100%;
 height: 50px;
-background-color: silver;
+background-color: #2A3046;
 display: grid;
 
 }
@@ -226,11 +226,11 @@ transform: scale(1.1) rotate(4deg);
 
 .reviews--container{
     height: 100pv;
-    max-width: 980px;
     display: grid;
     grid-template-columns: repeat(3,minmax(200px,369px));
     justify-content: center;  
     grid-gap:20px;
+    margin-bottom: 20px;
 }
 
 .reviews--items{
@@ -242,7 +242,9 @@ transform: scale(1.1) rotate(4deg);
 }
 
 /*Blog section */
-
+.blog-reviews{
+    height: calc(100vh - 0px);
+}
 .blog--reviews--main{
     display: grid;
     grid-template-rows: 80% auto;
@@ -254,4 +256,17 @@ transform: scale(1.1) rotate(4deg);
 .reviews--main_txt{
     max-width: 900px;
     
+}
+
+/*FOOTER*/
+
+footer{
+    height: 50px;
+    background-color: silver;
+    color: #2A3046;
+    justify-self: flex-end;
+    display: flex;
+    border-top: #2A3046 10px solid;
+    justify-content: center;
+    align-items: center;
 }

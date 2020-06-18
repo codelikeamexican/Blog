@@ -11,6 +11,7 @@ text-decoration: none;
 display: inline;
 color: white;
 }
+
 header{
 width: 100%;
 display: grid;
@@ -56,7 +57,7 @@ align-items: center;
 }
 
 .nav-container img{
-width: 3%;
+width: 1em;
 border-radius: 50%;
 
 }
@@ -169,10 +170,7 @@ transform: scale(1.1) rotate(4deg);
     align-content: center;
     padding: 20px;
 }
-.illustrations{
-    background-color: #586B6F;
-    
-}
+
 
 .book--line__rating{
     font-weight: bold;
@@ -314,3 +312,35 @@ footer{
 .readenbooks__favbook h3{
     margin-bottom: 15px;
 }
+
+/*Responsive Area - Desktop first*/
+
+
+@media (max-width: 1400px) {
+	.illustrations{
+        grid-template-columns: repeat(3,minmax(100px,350px));
+        justify-content: center;
+    }
+}
+
+@media (max-width: 992px) {	
+	.illustrations{
+        grid-template-columns: repeat(2,minmax(100px,300px));
+        justify-content: space-evenly;
+    }
+    .illustrations-items img{
+        max-width: 250px;
+    }
+}
+@media (max-width: 768px) {
+	.illustrations{
+        grid-template-columns: repeat(2,minmax(100px,250px));
+        justify-content: space-evenly;
+    }
+
+    .illustrations-items img{
+        max-width: 200px;
+    
+    }
+}
+

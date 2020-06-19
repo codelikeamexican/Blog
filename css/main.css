@@ -342,5 +342,26 @@ footer{
         max-width: 200px;
     
     }
+
+
+    .book-line{
+        grid-template-columns: 1fr;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .book-line--items{
+        grid-row-start: 1;
+        grid-column-start: 1;
+        
+    }
+    .book-line--description{
+        grid-row-start: 2;
+        grid-column-start: 1;
+        text-align: center;
+        padding: 20px;
+    }
+
+    
 }
 

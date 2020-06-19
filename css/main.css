@@ -362,6 +362,19 @@ footer{
         padding: 20px;
     }
 
-    
+    .reviews--main {
+        grid-template-columns: 1fr;
+        align-content: center;
+        justify-content: center;
+    }
+    .reviews--main__img{
+        grid-column-start: 1;
+    }
+    .reviews--main_txt{
+        grid-column-start: 1;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+    }
 }
 

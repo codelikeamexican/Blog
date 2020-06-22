@@ -131,7 +131,6 @@ transform: scale(1.1) rotate(4deg);
 }
 .book-line{
     background-color: white;
-    position: relative;
     display: grid;
     grid-template-columns:1fr 400px 400px 1fr;
     align-content: center;
